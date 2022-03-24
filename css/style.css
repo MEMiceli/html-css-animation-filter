@@ -66,8 +66,23 @@
 
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
+     /* solution */
+     transition: 3s;
 }
+/* solution */
+.ex-6-img:hover{
+    filter: grayscale(100%);
+}
+.ex-7-img:hover{
+    filter: contrast(10%);
+    filter: brightness(-10%);
+}
+.ex-8-img:hover{
+    border-radius: 3em;
+    filter: grayscale(40%);
+    filter: saturate(10%);
 
+}
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
