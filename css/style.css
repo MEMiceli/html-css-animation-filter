@@ -99,12 +99,30 @@
     height: auto;
 
 }
+/*/solution */
 .ex-10-icon {
     font-size: 60px;
+    /* solution */
+    transition: 4s;
+
 }
+/*solution */
+.ex-10-icon:hover{
+    transform: rotate(4320deg);
+}
+/*/solution */
 .ex-11-icon {
     font-size: 60px;
+    /* solution */
+    transition: 5s;
+    animation-timing-function: ease-in-out;
 }
+/* solution */
+.ex-11-icon:hover{
+    transform:rotate(270deg)
+
+}
+/*/solution */
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
