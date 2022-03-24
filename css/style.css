@@ -9,7 +9,7 @@
 .ex-1-square:hover{
     background-color: red;
 }
-
+/*/solution */
 .ex-2-square {
     width: 100px;
     height: 100px;
@@ -21,7 +21,7 @@
 .ex-2-square:active {
     width: 800px;
 }
-
+/*/solution */
 .ex-3-square {
     width: 100px;
     height: 100px;
@@ -33,7 +33,7 @@
 .ex-3-square:hover{
     border-radius: 50%;
 }
-
+/*/solution */
 .ex-4-square {
     width: 100px;
     height: 100px;
@@ -45,7 +45,7 @@
 .ex-4-square:hover{
     opacity: 0;
 }
-
+/*/solution */
 .ex-5-square {
     margin: 20px;
     width: 60px;
@@ -63,13 +63,13 @@
     width: 20px;
     height: 20px;
 }
-
+/*/solution */
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
      /* solution */
      transition: 3s;
 }
-/* solution */
+/* solutions */
 .ex-6-img:hover{
     filter: grayscale(100%);
 }
@@ -83,9 +83,21 @@
     filter: saturate(10%);
 
 }
+/*/solutions */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    /* solution */
+    transition: 4s;
+}
+/* solution */
+.ex-9-img:hover{
+    border-radius: 3em;
+    filter: sepia(40%);
+    filter: blur(40%);
+    width: 50%;
+    height: auto;
+
 }
 .ex-10-icon {
     font-size: 60px;
